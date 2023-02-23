@@ -134,7 +134,9 @@
     flex-direction: column;
     gap: 5rem;
   }
-
+  .main-btn-container {
+    justify-content: center;
+  }
   .main-image-container img {
     width: 578px;
     height: 386px;
@@ -148,7 +150,8 @@
 
 @media (max-width: 768px) {
   .watch-demo-btn {
-    width: 100%;
+    width: max-content;
+    padding: 0 20px;
     height: 35px;
     font-size: 17px;
     line-height: 18px;
