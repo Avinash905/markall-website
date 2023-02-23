@@ -2,8 +2,8 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://markall-website.onrender.com/api",
-  "homepage": "https://markall-website.onrender.com",
+  "proxy": "https://markall-website-kqj2.onrender.com/api",
+  "homepage": "https://markall-website-kqj2.onrender.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
