@@ -1,0 +1,45 @@
+@import url(app.css);
+
+nav {
+  background-color: var(--black-color);
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.navbar-content {
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-menu-link {
+  color: var(--white-color);
+}
+
+@media (max-width: 650px) {
+  .navbar-menu-link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 510px) {
+  .getstarted-btn {
+    display: none;
+  }
+}
