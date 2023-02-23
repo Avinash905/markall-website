@@ -6,7 +6,7 @@ import { VscGlobe } from "react-icons/vsc";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-axios.defaults.baseURL = process.env.SERVER_BASE_URL;
+axios.defaults.baseURL = "https://markall-website-kqj2.onrender.com/api";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
